@@ -1,0 +1,461 @@
+* {
+  background-color: skyblue;
+  margin: 0;
+  padding: 0;
+  /* margin:0 auto; */
+  /* list-style: none; */
+}
+.header {
+  padding: 10px 0 20px 0;
+  text-align: center;
+}
+.object {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  opacity: 1;
+}
+.title {
+  /* background-color: #777; */
+}
+.nav {
+  /* background-color: #777; */
+}
+.topmenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.topmenu li {
+  float: left;
+}
+
+.topmenu li a {
+  display: inline-block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.topmenu li a:hover {
+  background-color: rgb(0, 102, 255);
+}
+.side {
+  background-position: center;
+  text-align: center;
+}
+.a {
+  /* 경기도 */
+  display: block;
+  width: 100px;
+  height: 20px;
+  border: 5px solid rgb(75, 75, 75);
+  background-color: white;
+  color: black;
+  border-radius: 20% 20% 20% 20% / 80% 80% 80% 80%;
+  top: 25%;
+  left: 44%;
+  position: absolute;
+  transition: font-size 0.5s;
+  margin-right: -78px;
+}
+
+.b {
+  /* 강원도 */
+  display: block;
+  width: 100px;
+  height: 20px;
+  border: 5px solid rgb(75, 75, 75);
+  background-color: white;
+  color: black;
+  border-radius: 20% 20% 20% 20% / 80% 80% 80% 80%;
+  top: 22%;
+  left: 54%;
+  position: absolute;
+  transition: font-size 0.5s;
+}
+.c {
+  /* 충청남도 */
+  display: block;
+  width: 100px;
+  height: 20px;
+  border: 5px solid rgb(75, 75, 75);
+  background-color: white;
+  color: black;
+  border-radius: 20% 20% 20% 20% / 80% 80% 80% 80%;
+  top: 41%;
+  left: 42%;
+  position: absolute;
+  transition: font-size 0.5s;
+}
+.d {
+  /* 충청북도 */
+  display: block;
+  width: 100px;
+  height: 20px;
+  border: 5px solid rgb(75, 75, 75);
+  background-color: white;
+  color: black;
+  border-radius: 20% 20% 20% 20% / 80% 80% 80% 80%;
+  top: 31.5%;
+  left: 48.5%;
+  position: absolute;
+  transition: font-size 0.5s;
+}
+.e {
+  /* 경상북도 */
+  display: block;
+  width: 100px;
+  height: 20px;
+  border: 5px solid rgb(75, 75, 75);
+  background-color: white;
+  color: black;
+  border-radius: 20% 20% 20% 20% / 80% 80% 80% 80%;
+  top: 43%;
+  left: 55%;
+  position: absolute;
+  transition: font-size 0.5s;
+}
+.f {
+  /* 전라북도 */
+  display: block;
+  width: 100px;
+  height: 20px;
+  border: 5px solid rgb(75, 75, 75);
+  background-color: white;
+  color: black;
+  border-radius: 20% 20% 20% 20% / 80% 80% 80% 80%;
+  top: 54%;
+  left: 44%;
+  position: absolute;
+  transition: font-size 0.5s;
+}
+.g {
+  /* 전라남도 */
+  display: block;
+  width: 100px;
+  height: 20px;
+  border: 5px solid rgb(75, 75, 75);
+  background-color: white;
+  color: black;
+  border-radius: 20% 20% 20% 20% / 80% 80% 80% 80%;
+  top: 70%;
+  left: 44%;
+  position: absolute;
+  transition: font-size 0.5s;
+}
+.h {
+  /* 경상남도 */
+  display: block;
+  width: 100px;
+  height: 20px;
+  border: 5px solid rgb(75, 75, 75);
+  background-color: white;
+  color: black;
+  border-radius: 20% 20% 20% 20% / 80% 80% 80% 80%;
+  top: 60%;
+  left: 53%;
+  position: absolute;
+  transition: font-size 0.5s;
+}
+.i {
+  /* 제주도 */
+  display: block;
+  width: 100px;
+  height: 20px;
+  border: 5px solid rgb(75, 75, 75);
+  background-color: white;
+  color: black;
+  border-radius: 20% 20% 20% 20% / 80% 80% 80% 80%;
+  top: 94%;
+  left: 37%;
+  position: absolute;
+  transition: font-size 0.5s;
+}
+/* .a:hover{
+    font-size: 150%;
+}
+.b:hover{
+    font-size: 150%;
+}
+.c:hover{
+    font-size: 150%;
+}
+.d:hover{
+    font-size: 150%;
+}
+.e:hover{
+    font-size: 150%;
+}
+.f:hover{
+    font-size: 150%;
+}
+.g:hover{
+    font-size: 150%;
+}
+.h:hover{
+    font-size: 150%;
+}
+.i:hover{
+    font-size: 150%;
+} */
+.span {
+  display: block;
+  width: 300px;
+  height: 300px;
+  background-color: aqua;
+  margin: 10px;
+  top: 10%;
+  float: right;
+}
+.right {
+  /* visibility: hidden; */
+  opacity: 0;
+  width: 600px;
+}
+.left{
+  opacity: 1;
+  width: 600px;
+}
+.make1{
+  display: block;
+  background-color: rgb(0, 119, 255);
+  text-align: center;
+  margin: 0;
+  padding: 16px;
+  border-radius: 5%;
+  position: absolute;
+  top: 10%;
+  left: 0%;
+  color: white;
+}
+.make1:hover > .make2{
+  animation: slide-right 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+.make2{
+  display: block;
+  width: 400px;
+  height: 400px;
+  background-color: rgb(166, 174, 182);
+  border-radius: 5%;
+  margin: 0;
+  text-align: center;
+  position: absolute;
+  padding: 10px;
+  top: 100%;
+  left: -520%;
+  z-index: 1;
+  color: black;
+}
+
+.profile{
+  position: absolute;
+  background-color: rgb(166, 174, 182);
+  width: 100px;
+  height: 100px;
+  top: 10%;
+  left: 37%;
+  z-index: 1;
+}
+.name{
+  position: absolute;
+  background-color: rgb(166, 174, 182);
+  width: 100px;
+  height: 50px;
+  top: 37%;
+  left: 37%;
+  z-index: 1;
+  font-size: 20px;
+  font-weight: 1000;
+}
+.depart{
+  background-color: rgb(166, 174, 182);
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  z-index: 1;
+  font-size: 15px;
+}
+.git{
+  background-color: rgb(166, 174, 182);
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  top: 70%;
+  left: 37%;
+  z-index: 1;
+}
+div[class*="x"] {
+  top: 80px;
+  left: 1350px;
+  display: inline-block;
+  padding: 10px;
+  width: 720px;
+  height: 70px;
+  border: black;
+  border-radius: 5% 5% 5% 5% / 80% 80% 80% 80%;
+  vertical-align: middle;
+  text-align: center;
+  position: fixed;
+  opacity: 0;
+}
+.a:hover div[class*="x"] {
+  animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  border: 5px solid rgb(75, 75, 75);
+  background-color: white;
+  color: black;
+  z-index: 10;
+  opacity: 1;
+}
+.b:hover div[class*="x"] {
+  animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  top: 140px;
+  border: 5px solid rgb(75, 75, 75);
+  background-color: white;
+
+  color: black;
+  opacity: 1;
+  z-index: 10;
+}
+.c:hover div[class*="x"] {
+  animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  top: 220px;
+  border: 5px solid rgb(75, 75, 75);
+  background-color: white;
+
+  color: black;
+  opacity: 1;
+  z-index: 10;
+}
+.d:hover div[class*="x"] {
+  animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  top: 300px;
+  border: 5px solid rgb(75, 75, 75);
+  background-color: white;
+
+  color: black;
+  opacity: 1;
+  z-index: 10;
+}
+.e:hover div[class*="x"] {
+  animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  top: 380px;
+  border: 5px solid rgb(75, 75, 75);
+  background-color: white;
+
+  color: black;
+  opacity: 1;
+  z-index: 10;
+}
+.f:hover div[class*="x"] {
+  animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  top: 460px;
+  border: 5px solid rgb(75, 75, 75);
+  background-color: white;
+
+  color: black;
+  opacity: 1;
+  z-index: 10;
+}
+.g:hover div[class*="x"] {
+  animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  top: 540px;
+  border: 5px solid rgb(75, 75, 75);
+  background-color: white;
+
+  color: black;
+  opacity: 1;
+  z-index: 10;
+}
+.h:hover div[class*="x"] {
+  animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  top: 620px;
+  border: 5px solid rgb(75, 75, 75);
+  background-color: white;
+
+  color: black;
+  opacity: 1;
+  z-index: 10;
+}
+.i:hover div[class*="x"] {
+  animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  top: 700px;
+  border: 5px solid rgb(75, 75, 75);
+  background-color: white;
+
+  color: black;
+  opacity: 1;
+  z-index: 10;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2022-6-5 19:51:18
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-left
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-200px);
+    transform: translateX(-200px);
+  }
+}
+@keyframes slide-left {
+  0% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  100% {
+    -webkit-transform: translateX(-200px);
+    transform: translateX(-200px);
+  }
+}
+
+@-webkit-keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: skyblue;
+  }
+}
+@keyframes color-change-2x {
+  0% {
+    background: #19dcea;
+  }
+  100% {
+    background: skyblue;
+  }
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2022-6-13 23:35:53
+ * Licensed under FreeBSD License.
+ * See http://animista.net/license for more info. 
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-right
+ * ----------------------------------------
+ */
+ @keyframes slide-right {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(500px);
+  }
+}

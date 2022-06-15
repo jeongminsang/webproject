@@ -1,0 +1,56 @@
+* {
+    margin:0;
+}
+.error-app{
+    max-width: 100%;
+    margin:auto;
+}
+.title {
+    padding:10px;
+    text-align:center;
+    background-color:#aaa;
+    color:black;
+}
+.add-error {
+    text-align:center;
+    padding:10px;
+}
+.add-error input {
+    border:10px;
+}
+.add-error input:focus {
+    outline:1000px;
+}
+.error-container {
+    background-color:#eee;
+
+}
+/* List Item 관련 스타일 */
+.error-container ul {
+    list-style: none;
+}
+.error-container ul li {
+    padding: 15px 0;
+    cursor:pointer;
+}
+.error-container ul li:hover{
+    background-color: #aaa;
+}
+
+.add-error {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+#taskName{
+    color: white;
+}
+.button{
+    background-color: rgb(102, 102, 102);
+    width: 150px;
+    height: 50px;
+    top: 3%;
+    left: 2%;
+    border: 10px;
+    position: absolute;
+}
